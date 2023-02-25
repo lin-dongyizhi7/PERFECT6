@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网页</title>
+    <link rel="stylesheet" href="./mycss/share.css">
+    <link rel="stylesheet" href="./font_camera/iconfont.css">
+</head>
+
+<body style="width: 1680px;margin: 0px;">
+    <div class="maxBox">
+        <div class="music">
+            <div class="sbox">
+                <hr style="margin-block-start: 0;margin-block-end: 12px;" color="orange" size="8px">
+                <div class="audio">
+                    <audio controls="controls">
+                        <source src="/learn/music/eutopia.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <span class="iconfont icon-camera"></span>
+                <div class="musicname">
+                    <a href="https://www.bilibili.com/video/BV1gP4y1B7qw/?spm_id_from=333.999.0.0" target="_blank">
+                        <h1 style="margin: 0;">Eutopia</h1>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <header>
+            <h1>刻晴</h1>
+            <h2 class="oneclass">刻</h2>
+            <h3>晴</h3>
+            <h4 class="oneclass">刻</h4>
+            <h5>晴</h5>
+            <h6>刻晴</h6>
+
+            <p>刻晴</p>
+            <p>轻轻敲醒沉睡的心灵</p>
+            <p class="p1" style="color:red;">刻<br />晴</p>
+        </header>
+        <nav>
+            <hr color="red" size="5px">
+            <a href="https://space.bilibili.com/441165336?spm_id_from=333.1007.0.0" target="_blank">导航</a><br>
+            <a class="link" href="https://zh.moegirl.org.cn/%E8%83%A1%E6%A1%83(%E5%8E%9F%E7%A5%9E)#"
+                target="_blank">胡桃</a>
+            <a class="link" href="https://zh.moegirl.org.cn/%E5%88%BB%E6%99%B4" target="_blank">刻晴</a>
+        </nav>
+        <article>
+            <div class="kq"><img src="kq.gif" width="200px"></div>
+            <div class="ht">ht</div>
+            <section>
+                <div class="IMGS">
+                    <a href="https://www.bilibili.com/video/BV1jU4y1p73u/?spm_id_from=333.337.search-card.all.click&vd_source=43ce4632d8e3737b02c3a2638404bdc1"
+                        target="_blank">
+                        <img src="ht-l.jpg" alt="胡桃" height="600px" title="胡桃">
+                    </a>
+                    <a href="https://www.bilibili.com/video/BV1Dt4y1i76t/?spm_id_from=333.337.search-card.all.click&vd_source=43ce4632d8e3737b02c3a2638404bdc1"
+                        target="_blank">
+                        <img src="../kq_ll.jpg" alt="刻晴" height="600px" title="刻晴">
+                    </a>
+                </div>
+                <div class="atRight">
+                    <video width="900px" controls>
+                        <source src="hutao.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="info">
+                    <ol type="a"> <!--type="1/a/A/i/I",可嵌套-->
+                        <li>胡桃</li>
+                        <li>刻晴</li>
+                    </ol>
+                    <ul type="circle"> <!--type="disc默认实心圆/circle空心圆/square小方块/none不显示"-->
+                        <li>桃</li>
+                        <ol>
+                            <li>蝶火燎原</li>
+                            <li>蝶引来生</li>
+                        </ol>
+                        <li>晴</li>
+                        <ol>
+                            <li>天街巡游</li>
+                            <li>斩尽芜杂</li>
+                        </ol>
+                    </ul>
+
+                    <table width="200px" height="100px">
+                        <tr>
+                            <td>姓名</td>
+                            <td>属性</td>
+                            <td>武器</td>
+                        </tr>
+                        <tr>
+                            <td class="oneclass">胡桃</td>
+                            <td class="oneclass">火</td>
+                            <td class="oneclass">长柄武器</td>
+                        </tr>
+                        <tr>
+                            <td class="oneclass">刻晴</td>
+                            <td class="oneclass">雷</td>
+                            <td class="oneclass">单手剑</td>
+                        </tr>
+                    </table>
+
+                    </br>
+                    <form id="choice" name="你更喜欢谁">
+                        usr:<input type="text" name="user-name">
+                        <br>
+                        psd:<input type="password" name="passwd">
+                        <br>
+                        like:<input type="text">
+                        <input type="submit" value="提交">
+                    </form>
+                    </br>
+                </div>
+            </section>
+        </article>
+        <slider></slider>
+        <footer>
+            <!--水平合并6，7:colspan    垂直合并12，16:rowspan  保留先出现的-->
+            <table width="400" height="200">
+                <tr>
+                    <td>单元格1</td>
+                    <td>单元格2</td>
+                    <td>单元格3</td>
+                    <td>单元格4</td>
+                </tr>
+                <tr>
+                    <td>单元格5</td>
+                    <td colspan="2">单元格6|7</td>
+                    <td>单元格8</td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">单元格9|10|13|14</td>
+                    <td>单元格11</td>
+                    <td rowspan="2">单元格12|16</td>
+                </tr>
+                <tr>
+                    <td>单元格15</td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>
+
+</html>
